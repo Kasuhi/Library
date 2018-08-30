@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: beige;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView layoutX="154.0" layoutY="17.0" prefHeight="570.0" prefWidth="633.0">
+        <columns>
+          <TableColumn prefWidth="185.0" text="Student ID" />
+          <TableColumn prefWidth="195.0" text="Book ID" />
+            <TableColumn prefWidth="252.0" text="Date of issue" />
+        </columns>
+      </TableView>
+      <Button layoutX="19.0" layoutY="149.0" mnemonicParsing="false" text="View entry">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="21.0" layoutY="221.0" mnemonicParsing="false" text="New entry">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="289.0" mnemonicParsing="false" text="Delete entry">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="43.0" layoutY="354.0" mnemonicParsing="false" text="Back">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
